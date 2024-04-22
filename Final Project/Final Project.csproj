@@ -68,8 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.aspx" />
-    <Content Include="MediumProblemSolution.aspx" />
-    <Content Include="test.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -80,12 +78,6 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MediumProblemSolution.aspx.cs">
-      <DependentUpon>MediumProblemSolution.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="MediumProblemSolution.aspx.designer.cs">
-      <DependentUpon>MediumProblemSolution.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="test.aspx.cs">
